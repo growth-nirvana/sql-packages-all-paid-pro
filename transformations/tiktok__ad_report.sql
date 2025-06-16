@@ -9,7 +9,7 @@
 {% assign table_active = vars.tiktok_ads.models.tiktok__ad_report.active %}
 {% assign dataset_id = vars.output_dataset_id %}
 {% assign table_id = 'tiktok__ad_report_test' %}
-{% assign source_dataset_id = 'organization_2_account_605_consecutive_unconvincing_account_tiktok_client_inorganic_curry' %}
+{% assign source_dataset_id = '' %}
 {% assign source_table_id = 'ads_basic_data_metrics_by_day_report' %}
 {% assign number_of_accounts = vars.tiktok_ads.account_ids | size %}
 
